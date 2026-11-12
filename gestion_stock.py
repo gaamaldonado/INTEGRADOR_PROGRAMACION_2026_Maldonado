@@ -4,7 +4,7 @@ stock_productoso = {
     "congelados": [],
     "panaderia": []
 }
-stock_cantidad = {
+stock_cantidadd = {
     "enlatados": [],
     "frutas": [],
     "congelados": [],
