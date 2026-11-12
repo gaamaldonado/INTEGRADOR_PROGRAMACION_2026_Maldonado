@@ -13,7 +13,7 @@ def iniciar():
     for categoria in stock_productoso:
         stock_productoso = []
 def cargar_stock(): 
-    categoria = input("ingresa laq categoria")
+    categoria = input("ingresa la categoria")
     if categoria in stock_productoso:
       productito = input("ingresa el nombre del producto")
       cant = int(input("ingresa la cantidad"))
