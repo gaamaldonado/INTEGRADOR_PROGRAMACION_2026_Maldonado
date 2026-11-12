@@ -3,7 +3,7 @@ import gestion_stock
 def main():
     gestion_stock.iniciar()
     opcion = 0
-    while opcion == 4 :
+    while opcion != 4 :
         opcion = menu.mostrar_menu()
         
         if opcion == 1:
