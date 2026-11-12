@@ -9,7 +9,7 @@ def main ():
          gestion_stock.muestra_stock
     elif opcion == 3 :
        categori_contar = input("ingresa la categoria que queres contar")
-    if categori_contar in gestion_stock.stock_cantidadd:
+    if categori_contar in gestion_stock.stock_cantidad:
      lista_contar = gestion_stock.stock_cantidad[categori_contar]
      gestion_stock.contar(lista_contar) 
                
